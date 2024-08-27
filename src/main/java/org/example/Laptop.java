@@ -1,12 +1,12 @@
 package org.example;
 
-public class Laptop {
+public class Laptop  implements Computer{
 
     public Laptop(){
         System.out.println("Laptop constructor");
     }
 
     public void compiler(){
-        System.out.println("laptop class i have mac aseee");
+        System.out.println("compiler in laptop");
     }
 }
